@@ -1,10 +1,16 @@
 package crud.barbearia.java.application;
 
+import java.util.Scanner;
+
 public class Program {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Sistema Barbearia");
+		Scanner sc = new Scanner(System.in);
+		
+		
+	
+		sc.close();
 
 	}
 
