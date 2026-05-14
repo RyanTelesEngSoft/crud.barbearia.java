@@ -21,6 +21,11 @@ public class Servico {
 	}
 
 
+	public String getNome() {
+		return servico;
+	}
+
+
 	
 	
 }

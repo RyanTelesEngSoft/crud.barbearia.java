@@ -29,7 +29,12 @@ public class Agendamento {
 			return hora;
 		}
 
-		
+		@Override 
+		public String toString() {
+		    return cliente.getNome() + " | " +
+		           servico.getNome() + " | " +
+		           hora + "h";
+		}
 		
 	}
 
